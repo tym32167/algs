@@ -1,0 +1,36 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=19C9084A106F7442B79BA586533D340C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=19C9084A106F7442B79BA586533D340C/Description/@EntryValue">Console.ReadLine()</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=19C9084A106F7442B79BA586533D340C/Shortcut/@EntryValue">cr</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=19C9084A106F7442B79BA586533D340C/Text/@EntryValue">Console.ReadLine()</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=19C9084A106F7442B79BA586533D340C/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=19C9084A106F7442B79BA586533D340C/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=19C9084A106F7442B79BA586533D340C/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=19C9084A106F7442B79BA586533D340C/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=19C9084A106F7442B79BA586533D340C/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=19C9084A106F7442B79BA586533D340C/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7D4A253807076D4B9E22EB8C792A607C/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7D4A253807076D4B9E22EB8C792A607C/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7D4A253807076D4B9E22EB8C792A607C/Description/@EntryValue">console reader</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7D4A253807076D4B9E22EB8C792A607C/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7D4A253807076D4B9E22EB8C792A607C/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7D4A253807076D4B9E22EB8C792A607C/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7D4A253807076D4B9E22EB8C792A607C/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7D4A253807076D4B9E22EB8C792A607C/Shortcut/@EntryValue">conr</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7D4A253807076D4B9E22EB8C792A607C/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7D4A253807076D4B9E22EB8C792A607C/Text/@EntryValue">    public class ConsoleReader&#xD;
+    {&#xD;
+        public static int[] ReadArray()&#xD;
+        {&#xD;
+            return Console&#xD;
+                .ReadLine()&#xD;
+                .Split(new[] { " " }, StringSplitOptions.RemoveEmptyEntries)&#xD;
+                .Select(int.Parse)&#xD;
+                .ToArray();&#xD;
+        }&#xD;
+&#xD;
+        public static int ReadOne()&#xD;
+        {&#xD;
+            return int.Parse(Console.ReadLine());&#xD;
+        }&#xD;
+    }     </s:String></wpf:ResourceDictionary>

@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace CodeTemplates
 {
-    class ConsoleReader
+    public class ConsoleReader
     {
         public static int[] ReadArray()
         {
@@ -13,7 +13,6 @@ namespace CodeTemplates
                 .Select(int.Parse)
                 .ToArray();
         }
-
 
         public static int ReadOne()
         {

@@ -23,6 +23,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TASK_230_B", "TASK_230_B\TA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TASK_112_A", "TASK_112_A\TASK_112_A.csproj", "{7C0AC1C3-1AE4-4255-9AEB-D7F43303D862}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{14C16B50-70D2-4474-A885-CD194D83F73D}"
+	ProjectSection(SolutionItems) = preProject
+		Data\faq.md = Data\faq.md
+		Data\problems.json = Data\problems.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
